@@ -1,0 +1,285 @@
+*{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    list-style-type: none;
+    text-decoration:none;
+}
+hr{
+    border:2px solid #980d0d;
+}
+.nav{
+    margin-right: 15px;
+    top: 10px;
+    position: fixed;
+    z-index: 10;
+    right: 0px;
+    width: 50px;
+}
+.navLong{
+    display: none;
+    position: fixed;
+    top: 80px;
+    width: 160px;
+    right: 0px;
+    z-index: 10;
+    margin-right: 15px;
+}
+.navLage{
+    display: none;
+}
+.navLong1{
+    font-size: 20px;
+    margin-top: 5px;
+    width: 160px;
+    background-color: #ffffffab;
+    color: #403f3f;
+    text-align: right;
+}
+.navimg{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.jumbotron{
+    background-image:url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    display: none;
+}
+.compinTittem{
+    width: 90%;
+    color: #980d0d;
+    font-size: 30px;
+    height: 57px;
+    padding: 20px;
+}
+.compin{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.compinImg{
+    background-image:url(../img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+}
+.scrviceImg{
+    background-image:url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 301px;
+}
+
+.compinTxt{
+    width: 89%;
+    color: #6d6d6d;
+    padding: 25px;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.scrviceTittem{
+    font-size: 32px;
+    height: 45px;
+}
+.scrviceTxt{
+    width: 93%;
+    padding: 17px;
+    font-size: 22px;
+}
+#fadeIn1{
+    display: none;
+}
+#fadeIn2{
+    display: none;
+}
+#fadeIn3{
+    display: none;
+}
+#fadeIn4{
+    display: none;
+}
+#fadeIn5{
+    display: none;
+}
+#fadeIn6{
+    display: none;
+}
+.aaa{
+    padding: 5px;
+    font-size: 20px;
+    width: 25%;
+    height: 100px;
+    border: 1px #820f0f solid;
+}
+.bbb{
+    padding: 5px;
+    font-size: 20px;
+    width: 60%;
+    height: 100px;
+    border: 1px #820f0f solid;
+}
+.aa{
+    padding: 5px;
+    font-size: 20px;
+    width: 25%;
+    height: 100px;
+}
+.bb{
+    padding: 5px;
+    font-size: 20px;
+    width: 60%;
+    height: 100px;
+}
+.cc{
+    width: 88%;
+    height: 50px;
+}
+.end{
+    display: flex;
+    height: 135px;/*需要调试*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.endLogo{
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.endAccess{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.tel{
+    font-size: 31px;
+    margin-top: 5px;
+    width: 250px;
+    color: #6f87ff;
+    text-align: center;
+}
+.endMail{
+    font-size: 20px;
+    width: 247px;
+}
+.endName{
+    font-size: 20px;
+    width: 135px;
+}
+@media screen and (min-width:1000px) {
+    .navLage{
+        display: block;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+        background-color: #ffffffad;
+        height: 100px;
+    }
+    .logo{
+        float: left;
+        display: block;
+    }
+    .navButton{
+        width: 180px;
+        height: 41px;
+        float: left;
+        margin-top: 29px;
+        text-align: center;
+    }
+    .navButton a{
+        width: 200px;
+        height: 70px;
+        color: #000;
+        font-size: 20px;
+    }
+   
+    .nav{
+        display: none;
+    }
+    .compinTxt {
+        width: 71%;
+    }
+    /* *{
+        width: 900px;
+        margin: 0px auto;
+    } */
+    .compinTittem{
+        width: 555px;
+        margin: 0px auto;
+    }
+    .compinImg{
+        width: 600px;
+    }
+    #fadeIn1{
+        display: block;
+    }
+    #fadeIn2{
+        display: block;
+    }
+    #fadeIn3{
+        display: block;
+    }
+    #fadeIn4{
+        display: block;
+    }
+    #fadeIn5{
+        display: block;
+    }
+    #fadeIn6{
+        display: block;
+    }
+    .scrviceImg{
+        height: 186px;
+        width: 40%;
+    }
+    .scrviceImg1{
+        height: 375px;
+    }
+    .scrviceTxt{
+        width: 66%;       
+       }
+       .scrviceTxt2{
+        width: 26%;  
+    }
+       .aaa{
+        padding: 5px;
+        font-size: 20px;
+        width: 200px;
+        height: 100px;
+        border: 1px #820f0f solid;
+    }
+    .bbb{
+        padding: 5px;
+        font-size: 20px;
+        width: 600px;
+        height: 100px;
+        border: 1px #820f0f solid;
+    }
+    .ccc{
+        width: 811px;
+        height: 50px;
+    }
+}
