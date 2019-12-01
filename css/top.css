@@ -60,7 +60,9 @@ hr{
 .logo{
     width: 100px;
     height: 100px;
-    background-color: blanchedalmond;
+    background-image: url(../img/H.C-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     display: none;
 }
 .compinTittem{
@@ -165,9 +167,14 @@ hr{
     justify-content: center;
 }
 .endLogo{
+    margin-bottom: 10px;
     width: 300px;
     height: 100px;
-    background-color: blueviolet;
+    background-image: url(../img/H.C-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 25px;
 }
 .endAccess{
     display: flex;
